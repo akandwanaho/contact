@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <h1>Feedback Page</h1>
+
+    <!-- Display submitted questions if available -->
+    {% if submitted_questions %}
+    <h2>Questions that do not appear in the bot:</h2>
+    <ul id="submitted-questions">
+        {% for question in submitted_questions %}
+        <li>{{ question }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- Password form -->
+    {% if password_prompt %}
+    <form action="/admin-view" method="post">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Submit</button>
+    </form>
+    {% endif %}
+
+      <br><br> <!-- Adding space -->
+
+    <!-- Go Back button -->
+    <a href="/">Go back to the Bot</a>
+
+    <!-- JavaScript for clearing questions -->
+    <script>
+        // JavaScript for clearing questions
+        document.getElementById('clear-button').addEventListener('click', function() {
+            // Clear the list of submitted questions
+            var submittedQuestionsList = document.getElementById('submitted-questions');
+            submittedQuestionsList.innerHTML = '';
+        });
+    </script>
+</body>
+</html>
