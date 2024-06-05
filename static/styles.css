@@ -1,0 +1,184 @@
+/* Keep the original styles */
+
+.input-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+#main-question {
+  flex: 7;
+  margin-right: 5px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+#examplePrompts {
+  flex: 3;
+  margin-left: 5px;
+  margin-top: 8px; /* Adjust the margin-top value to push the box up */
+  max-height: 55px;
+  overflow-y: auto;
+  padding: 2px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+  word-wrap: break-word;
+}
+
+#examplePrompts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#examplePrompts ul li {
+  white-space: normal;
+  text-overflow: clip;
+}
+
+/* Continuous scrolling animation */
+@keyframes scroll {
+  0% {
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-100%);
+  }
+}
+
+/* Apply animation to scroll list */
+#scrollList {
+  animation: scroll 30s linear infinite;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 170%;
+}
+
+.titles-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.question-title {
+  margin: 0;
+
+}
+
+
+
+
+.question-heading {
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  font-size: 11px; /* Default font size for computer web */
+}
+
+.vertical-align-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container,
+.unanswered-question-form,
+.form-container {
+  max-width: 90%; /* Adjust the maximum width as needed */
+  margin-right: auto; /* Center the form */
+  margin-left: auto; /* Center the form */
+  margin-top: 20px; /* Increase space from above elements */
+}
+
+#adminViewBtn2 {
+  margin-left: 4px;
+}
+
+.title {
+  margin-right: 10px; /* Adjust the value as needed */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.blue-text {
+  color: blue;
+}
+
+
+/* Media query for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+  .container,
+  .unanswered-question-form,
+  .form-container {
+    max-width: 95%; /* Adjust the maximum width as needed */
+    margin-right: auto; /* Center the form */
+    margin-left: auto; /* Center the form */
+  }
+
+  .title {
+    margin-right: auto; /* Adjust margin to center */
+    margin-top: 10px; /* Adjust the margin-top for mobile devices */
+  }
+
+    /* Adjust the font size for specific headings on smaller screens */
+  .question-title,
+  .example-prompts-title {
+    font-size: 10px; /* Adjust the font size as needed */
+  }
+}
+
+
+  /* Adjust the animation duration for smaller screens */
+  @keyframes scroll {
+    0% {
+      opacity: 0.5;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-100%);
+    }
+  }
+
+  /* Apply animation to scroll list */
+  #scrollList {
+    animation: scroll 55s linear infinite; /* Adjust the duration as needed */
+  }
+
+
+/* Media query for larger screens (computers) */
+@media only screen and (min-width: 601px) {
+  .question-title,
+  .example-prompts-title {
+    font-size: 11px; /* Adjust the font size for computers */
+  }
+
+  .unanswered-question-form form {
+    width: 65%; /* Adjust the width for computers */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+}
+
+
+/* Adjust the font size for specific paragraphs */
+.note-paragraph {
+  font-size: 11px; /* Adjust the font size as needed */
+}
+
+.rights-paragraph {
+  font-size: 11px; /* Adjust the font size as needed */
+}
+
+
+.main-container .logo {
+    position: relative;
+    left: -10px;  // Increase the pixel value if -10px was not enough
+}
+

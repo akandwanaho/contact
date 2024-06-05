@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+</head>
+<body>
+    {% if not password_correct %}
+        <h1>Enter password to access this page</h1>
+        <form method="post" action="/admin-view-form1">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <input type="submit" value="Submit">
+        </form>
+    {% else %}
+        <h1>Admin View Page</h1>
+        {% if website_access_data %}
+            <h2>Access Count for the Website: {{ website_access_data.count }}</h2>
+            <h2>Access Date: {{ website_access_data.date }}</h2>
+        {% else %}
+            <p>No access data available.</p>
+        {% endif %}
+        <h2>Submitted Answers Report</h2>
+        <p>
+            {% if submitted_answers %}
+                {% for answer in submitted_answers %}
+                    {{ answer }}<br>
+                {% endfor %}
+            {% else %}
+                No submitted answers yet.
+            {% endif %}
+        </p>
+    {% endif %}
+    <br>
+    <!-- Go back link -->
+    <a href="/">Go back to Bot</a>
+</body>
+</html>
