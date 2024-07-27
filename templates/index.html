@@ -30,15 +30,20 @@
     </style>
 </head>
 <body>
-<div class="main-container">
-   <img class="logo" src="{{ url_for('static', filename='logo1.jpg') }}" alt="Logo">
-   <!-- <img class="logo" src="{{ url_for('static', filename='favicon.ico') }}" alt="Logo"> -->
 
+<div class="page-wrapper">
+    <img class="logo" src="{{ url_for('static', filename='logo1.jpg') }}" alt="Logo">
 
-<div class="container">
-  <div class="form-wrapper">
-    <div class="form-container">
-      <h1 class="title">Rich - Contact Bot</h1>
+    <div class="links-container">
+    <a href="https://learning.richfield.ac.za" target="_blank">Log into Moodle</a>
+    <a href="https://rgitie.richfield.ac.za/pls/rgitp/w99pkg.mi_login" target="_blank">Log into iEnabler</a>
+        <a href="https://www.richfield.ac.za/payment/" target="_blank" class="flicker">Pay Fees</a>
+</div>
+
+        <div class="main-container">
+            <div class="form-wrapper">
+                <div class="form-container">
+                    <h1 class="title">Rich - Contact Bot</h1>
         <h3 class="title">This bot will answer all your questions</h3>
       <div class="titles-container">
         <p class="question-title">Type and submit question <span class="blue-text">(see example prompts on the right)</span>:</p>
@@ -56,7 +61,7 @@
                 <li>when does semester 2 start?</li>
                 <li>how do i access my results?</li>
                 <li>how do i reset my moodle password?</li>
-                <li>when is graduation for 2024?</li>
+                <li>when is graduation for 2025?</li>
                 <li>how do i signup for IBM?</li>
                 <li>how do I sign up for AWS</li>
                 <li>how are marks calculated?</li>
@@ -68,7 +73,7 @@
                <li>how do i access my academic transcript</li>
                 <li>how do i access my fee statement</li>
                 <li>when are the exams</li>
-                <li>when will results for semester 1 2024 be released</li>
+                <li>when will results for semester 2 2024 be released</li>
                 <!-- More list items here -->
               </ul>
             </div>
@@ -83,6 +88,7 @@
     </div>
   </div>
 </div>
+     </div>
 
 
 

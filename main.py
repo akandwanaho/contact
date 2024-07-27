@@ -23,7 +23,7 @@ access_count = 0
 
 # FAQs
 faqs = {
-    "When does semester one officially start?": "The semester commences on 19th February 2024. \nPlease review academic calendar for above mentioned dates and other key important dates.",
+    "When does semester one officially start?": "The semester commences on 29th July 2024. \nPlease review academic calendar for above mentioned dates and other key important dates.",
 "When does semester two start?": "Semester two commences on 29th July 2024. \n<strong>Good Luck!</strong>.",
 "When does semester 2 start?": "Semester two commences on 29th July 2024. \n<strong>Good Luck!</strong>.",
 "When will semester 2 commence?": "Semester two commences on 29th July 2024. \n<strong>Good Luck!</strong>.",
@@ -33,16 +33,12 @@ faqs = {
 "how do I access my academic record?": "Academic record/transcript can be accessed on iEnabler. \nOnce you have logged in, you will click on student enquiry. \nA drop down will appear, and you must select academic transcript.",
 
 
-
-
-    "What is WIL?": "Work Integrated Learning entails practical hands-on experience received at the workplace which supports your learning experience and is part of your formal academic programme. \nAll final year students are required to conduct and complete their Work Integrated Learning. \nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform.",
+"What is WIL?": "Work Integrated Learning entails practical hands-on experience received at the workplace which supports your learning experience and is part of your formal academic programme. \nAll final year students are required to conduct and complete their Work Integrated Learning. \nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform.",
 "What is work integrated learning?": "Work Integrated Learning entails practical hands-on experience received at the workplace which supports your learning experience and is part of your formal academic programme. \nAll final year students are required to conduct and complete their Work Integrated Learning. \nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform.",
 "Where do I do WIL?": " You can choose any company or organisation of your interest depending on your specialisation.\nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform. \nIf you cannot get a company, please contact Richfield through your administrator. \n<strong>Good Luck!</strong>",
 "Where do I do work integrated learning?": " You can choose any company or organisation of your interest depending on your specialisation.\nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform. \nIf you cannot get a company, please contact Richfield through your administrator. \n<strong>Good Luck!</strong>",
 "Where do I get a company for WIL?": " You can choose any company or organisation of your interest depending on your specialisation.\nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform. \nIf you cannot get a company, please contact Richfield through your administrator. \n<strong>Good Luck!</strong>",
 "Where do I get a company for work integrated learning?": " You can choose any company or organisation of your interest depending on your specialisation.\nYou will be required to complete the WIL logbook and upload onto the Moodle platform. \nAll relevant documentation relating to WIL can be found on your Moodle platform. \nIf you cannot get a company, please contact Richfield through your administrator. \n<strong>Good Luck!</strong>",
-
-
 
 
 "I cannot access ienabler": "To reset your iEnabler password, send an email to: moodlesupport@richfield.ac.za or contact your administrator.",
@@ -53,7 +49,7 @@ faqs = {
 "Hello": "Hello, what information are you seeking today?.",
 
 "How is the weather today?": "It is sunny and warm, but it is likely to rain in the evening",
-"When is the assignment due date? assignments": "Assignments 1 & 2 due date is on 25th March 2024, \nAssignments 3 & 4 due date is on 30 April 2024, \nAssignments 5 & 6 due date is on 31st May 2024. \n<strong>Good Luck!</strong>",
+"When is the assignment due date? assignments": "Assignments 1 & 2 due date is on 30 August 2024, \nAssignments 3 & 4 due date is on 30 August 2024, \nAssignments 5 & 6 due date is on 30 August 2024. \n<strong>Good Luck!</strong>",
 "Who is the Dean?": "The Executive Dean is: Dr Stephen Akandwanaho (stephen.akandwanaho@growth-ten.com)",
 "Who is the Director Distance Learning?": "Ms Ravika Sookraj (ravikas@richfield.ac.za)",
 "Who is the Director Contact Learning?": "Mr Kegan Shunmugam (kegans@richfield.ac.za)",
@@ -63,24 +59,24 @@ faqs = {
 "Who is the MD Distance Learning?": "Ms Ravika Sookraj (ravikas@richfield.ac.za)",
 "Who is the MD Contact Learning?": "Mr Kegan Shunmugam (kegans@richfield.ac.za)",
 
-"When is the exams?": "Semester 1 exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
-"exam dates?": "Semester 1 exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
-"exams dates?": "Semester 1 exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
-"When are the exams?": "Semester 1 exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
-"When does examination commence?": "Semester 1 exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
-"When are the examination exam?": "Semester 1 exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
-"When are the exams this semester?": "Exams this semester run from 14th June to 3 July 2024. \n<strong>Good Luck!</strong>",
+"When is the exams?": "Semester exams run from 14th June to 3 July 2024.\n<strong>Good Luck!</strong>",
+"exam dates?": "Semester exams run from 12th November to 2 December 2024.\n<strong>Good Luck!</strong>",
+"exams dates?": "Semester exams run from 12th November to 2 December 2024.\n<strong>Good Luck!</strong>",
+"When are the exams?": "Semester exams run from 12th November to 2 December 2024.\n<strong>Good Luck!</strong>",
+"When does examination commence?": "Semester exams run from 12th November to 2 December 2024.\n<strong>Good Luck!</strong>",
+"When are the examination exam?": "Semester exams run from 12th November to 2 December 2024.\n<strong>Good Luck!</strong>",
+"When are the exams this semester?": "Semester exams run from 12th November to 2 December 2024. \n<strong>Good Luck!</strong>",
 
-"When will results be released?": "Release of results for semester 1 is on 10 July 2024. \n<strong>Good Luck!</strong>",
-"When will results be available?": "Release of results for semester 1 is on 10 July 2024. \n<strong>Good Luck!</strong>",
+"When will results be released?": "Results will be released on 11 December 2024. \n<strong>Good Luck!</strong>",
+"When will results be available?": "Results will be released on 11 December 2024. \n<strong>Good Luck!</strong>",
 "How do I access my results?": "Results are accessed on iEnabler. \nPlease log into your iEnabler, \nSelect student inquiry and go to academic record. \n<strong>Good Luck!</strong>",
 "How to access my results": "Results are accessed on iEnabler. \nPlease log into your iEnabler, \nSelect student inquiry and go to academic record. \n<strong>Good Luck!</strong>",
-"When will results for semester 1 2024 be released?": "Release of results for semester 1 is on 10 July 2024. \n<strong>Good Luck!</strong>",
+"When will results for semester 2 2024 be released?": "Results will be released on 11 December 2024. \n<strong>Good Luck!</strong>",
 
 
-"When can I get my results?": "Release of results for semester 1 is on 10 July 2024. \n<bold>Good luck!<bold>",
-"When are the institution holidays?": "Semester 1 holidays run from 8 July to 19 July 2024. \n<bold>Enjoy your holidays!<bold>",
-"holidays?": "Semester 1 holidays run from 8 July to 19 July 2024. \n<bold>Enjoy your holidays!<bold>",
+"When can I get my results?": "Results will be released on 11 December 2024. \n<bold>Good luck!<bold>",
+"When are the institution holidays?": "Semester holidays run from 15 December 2024 to 22 February 2025. \n<bold>Enjoy your holidays!<bold>",
+"holidays?": "Semester holidays run from 15 December 2024 to 22 February 2025. \n<bold>Enjoy your holidays!<bold>",
 
 
 "Who is the registrar": "Dr Muni Kooblal(muni.kooblal@growth-ten.com)",
@@ -119,32 +115,23 @@ faqs = {
 "Which campus is ": "Career Expo is scheduled for 10 June 2024",
 "What campus is ": "Career Expo is scheduled for 10 June 2024",
 "Richfield's banking details ": "<strong>Please use these banking details</strong>.\nLegal Entity Name: Richfield Graduate Institute of Technology(Pty), \nTrading as: Null, Reg No: 2000/000752/07:Account Name: RGI DISTANCE LEARNING, Type: Cheque: Number: 201901692, Branch: Tongaat, Code: 057729, Date account opended: 20130117, Swift Code:SBZAZAJJ; Universal branch code:051001",
-"When do classes start?": "26 February 2024. \nRichfield wishes you a successful year ahead",
-"When do lectures start?": "26 February 2024. \nRichfield wishes you a successful year ahead",
-"When do classes commence?": "Lectures commence on 26 February 2024. \nRichfield wishes you a successful year ahead",
-"When do lectures commence?": "Lectures commence on 26 February 2024. \nRichfield wishes you a successful year ahead",
-"When is mental wellness?": "Mental Wellness is on 4 March 2024",
-"When is Enterpreneurship Week?": "Enterpreneurship Week runs from 2 April to 5 April 2024",
-"When is the hackathon?": "Hackathon runs from 30 May to 31 May 2024",
-"When does the hackathon take place?": "Hackathon runs from 30 May to 31 May 2024",
-"hackathon": "Hackathon runs from 30 May to 31 May 2024",
+"When do classes start?": "29 July 2024. \n<strong>Richfield wishes you a successful semester ahead</strong>",
+"When do lectures start?": "29 July 2024. \n<strong>Richfield wishes you a successful semester ahead</strong>",
+"When do classes commence?": "29 July 2024. \n<strong>Richfield wishes you a successful semester ahead</strong>",
+"When do lectures commence?": "29 July 2024. \n<strong>Richfield wishes you a successful semester ahead</strong>",
+"When is mental wellness?": "Mental Wellness is on 9 october 2024",
+"When is Enterpreneurship Week?": "Enterpreneurship Week runs from 2 April to 5 April 2025",
+"When is the hackathon?": "Hackathon runs from 30 May to 31 May 2025",
+"When does the hackathon take place?": "Hackathon runs from 30 May to 31 May 2025",
+"hackathon": "Hackathon runs from 30 May to 31 May 2025",
 
-"When is the coding bootcamp?": "Bootcamps for first semester run from 15 to 16th April 2024",
-"When are the bootcamps?": "Bootcamps for first semester run from 15 to 16th April 2024",
-"When are the boot camps?": "Bootcamps for first semester run from 15 to 16th April 2024",
+"When is the coding bootcamp?": "Bootcamps for first semester run from 15 to 16th April 2025",
+"When are the bootcamps?": "Bootcamps for the second semester will take place on 4th October 2024",
+"When are the boot camps?": "Bootcamps for the second semester will take place on 4th October 2024",
 "What qualifications does Richfield offer": "Please find all this information and more on: <a href='https://www.richfield.ac.za/'> Richfield Website</a> ",
 "Which qualifications does Richfield offer": "Please find all this information and more on: <a href='https://www.richfield.ac.za/'>Richfield Website</a> ",
 "How many Faculties does Richfield have?": "Richfield has 2 Faculties: Faculty of IT and Faculty of Business and Management Sciences",
 "Which Faculties does Richfield have?": "Richfield has 2 Faculties: Faculty of IT and Faculty of Business and Management Sciences",
-
-
-"When are the workshops?": "<strong>If you are a degree or diploma student, Workshops take place as follows:</strong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong>\nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
-"When do workshops start?": "<strong>If you are a degree or diploma student, Workshops take place as follows:</strong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong>\nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
-"When is workshop?": "<strong>If you are a degree or diploma student, Workshops take place as follows:<s/trong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong>\nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
-"When will distance learning workshops take place? ": "<strong>If you are a degree or diploma student, Workshops take placee as follows:</strong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong> \nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
-"When are distance learning workshops? ": "</strong>If you are a degree or diploma student, Workshops take place as follows:</strong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong> \nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
-"Give me workshop dates? ": "</strong>If you are a degree or diploma student, Workshops take place as follows:</strong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong> \nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
-"When are workshops? ": "</strong>If you are a degree or diploma student, Workshops take place as follows:</strong> \nWorkshop 1 (1st year): 9 March 2024, \nWorkshop 1(2nd and 3rd year):16 March 2024, \nWorkshop 2 (1st year):23 March 2023, \nWorkshop 3(1st year):01 June 2024,\nWorkshop 3(2nd and 3rd years):08 June 2024. \n<strong>If you are a Higher Certificate student, Workshop dates are as follows:</strong> \nWorkshop1: 04 March 2024, \nWorkshop2:05 March 2024, \nWorkshop3:11 March 2024, \nWorkshop4:12 March 2024, \nWorkshop5: 18 March 2024.",
 
 
 
@@ -299,16 +286,6 @@ faqs = {
 "How is the proposal structured?": "<strong>The postgraduate research proposal should have these sections:</strong>\nBackground,\nIntroduction,\nResearch Aim & Objectives,\nResearch Questions,\nLiterature Review,\nProblem Statement,\nHypothesis (Optional),\nSignficance of Study,\nResearch Timeframe,\nConclusion,\nReferences.\nEnsure that you consult many articles, books, journals and other sources. \nThe proposal should have more than 20 references.\nThe references should not be more than 5 years old.\n<strong>Good Luck!</strong>",
 "Give me sections of the proposal?": "<strong>The postgraduate research proposal should have these sections:</strong>\nBackground,\nIntroduction,\nResearch Aim & Objectives,\nResearch Questions,\nLiterature Review,\nProblem Statement,\nHypothesis (Optional),\nSignficance of Study,\nResearch Timeframe,\nConclusion,\nReferences.\nEnsure that you consult many articles, books, journals and other sources. \nThe proposal should have more than 20 references.\nThe references should not be more than 5 years old.\n<strong>Good Luck!</strong>",
 
-"When is the proposal due?": "The PGDM and BSc Hons proposal is due 30th April 2024\n<strong>Good Luck!</strong>",
-"what is the due date for the proposal?": "The PGDM and BSc Hons proposal is due 30th April 2024.\n<strong>Good Luck!</strong>",
-"When do I submit proposal": "The PGDM and BSc Hons proposal is due 30th April 2024\n<strong>Good Luck!</strong>",
-"When is proposal submission?": "The PGDM and BSc Hons proposal is due 30th April 2024\n<strong>Good Luck!</strong>",
-"Are there proposal presentations?": "No, there are no proposal presentations.\nYou are required to submit your proposal and PowerPoint presentation by 30th April 2024.\nThey will then be graded and marks will count towards your semester DP.\n<strong>Good Luck!</strong>",
-"proposal presentations?": "No, there are no proposal presentations.\nYou are required to submit your proposal and PowerPoint presentation by 30th April 2024.\nThey will then be graded and marks will count towards your semester DP.\n<strong>Good Luck!</strong>",
-"will i present my proposal?": "No, there are no proposal presentations.\nYou are required to submit your proposal and PowerPoint presentation by 30th April 2024.\nThey will then be graded and marks will count towards your semester DP.\n<strong>Good Luck!</strong>",
-"present proposal?": "No, there are no proposal presentations.\nYou are required to submit your proposal and PowerPoint presentation by 30th April 2024.\nThey will then be graded and marks will count towards your semester DP.\n<strong>Good Luck!</strong>",
-"proposal presentation?": "No, there are no proposal presentations.\nYou are required to submit your proposal and PowerPoint presentation by 30th April 2024.\nThey will then be graded and marks will count towards your semester DP.\n<strong>Good Luck!</strong>",
-
 
 
 "What chapters should be in a BSc Hons IT dissertation?": "The dissertation for PGDM & BSc Hons IT should have a minimum of 80 pages and a maximum of 120 pages.\n<strong>The dissertation should be structured as follows:</strong> \nThe preamble should have a Richfield Logo, Title Page (Topic, Fullname, Student Number, Course, Supervisor, Month and Year).\nAcknowledgements.\nDeclaration.\nList of Figures and Tables.\nAbbreviations.\nAbstract (100 words)\nTable of Contents (Automatic).\n<strong>The chapters for the main body are:</strong> \n<strong>Chapter 1:Introduction</strong>\nBackground\nIntroduction\nAim and Objectives\nResearch Objectives\nResearch Questions\nLiterature Review\nProblem Statement\nSignificance of Study\nHypothesis(Otional)\nTheoretical Framework\nStructure of the Dissertation\nConclusion\n<strong>Chapter 2:Literature Review</strong>\nUse a thematic approach\n<strong>Chapter 3: Problem Statement</strong>\nIntroduction\nProblem\nConclusion\n<strong>Chapter 4:Research Methodology</strong>\nIntroduction\nResearch Design\nTarget Population\nData Collection and Instrument used\nData Analysis\nEthical Consideration\nLimitations\nSummary\n<strong>Chapter 5:Presentation of Results</strong>\nIntroduction\nResponse Rate\nResults\nConclusion\n<strong>Chapter 6:Conclusion</strong>\nSummary\nMain Findings\nContributions\nImplications\nLimitations\nRecommendations\nSuggestions for future research\nReferences (Harvard Style).\nAppendices.\nEnsure that references are not more than 5 years old\n<strong>Good Luck!</strong>",
@@ -321,18 +298,18 @@ faqs = {
 "what is the structure of the BSc Hons dissertation?": "The dissertation for PGDM & BSc Hons IT should have a minimum of 80 pages and a maximum of 120 pages.\n<strong>The dissertation should be structured as follows:</strong> \nThe preamble should have a Richfield Logo, Title Page (Topic, Fullname, Student Number, Course, Supervisor, Month and Year).\nAcknowledgements.\nDeclaration.\nList of Figures and Tables.\nAbbreviations.\nAbstract (100 words)\nTable of Contents (Automatic). \n<strong>The chapters for the main body are:</strong> \n<strong>Chapter 1:Introduction</strong>\nBackground\nIntroduction\nAim and Objectives\nResearch Objectives\nResearch Questions\nLiterature Review\nProblem Statement\nSignificance of Study\nHypothesis(Otional)\nTheoretical Framework\nStructure of the Dissertation\nConclusion\n<strong>Chapter 2:Literature Review</strong>\nUse a thematic approach\n<strong>Chapter 3: Problem Statement</strong>\nIntroduction\nProblem\nConclusion\n<strong>Chapter 4:Research Methodology</strong>\nIntroduction\nResearch Design\nTarget Population\nData Collection and Instrument used\nData Analysis\nEthical Consideration\nLimitations\nSummary\n<strong>Chapter 5:Presentation of Results</strong>\nIntroduction\nResponse Rate\nResults\nConclusion\n<strong>Chapter 6:Conclusion</strong>\nSummary\nMain Findings\nContributions\nImplications\nLimitations\nRecommendations\nSuggestions for future research\nReferences (Harvard Style).\nAppendices.\nEnsure that references are not more than 5 years old\n<strong>Good Luck!</strong>",
 
 
-"when is the dissertation due?": "Please make sure you submit your dissertation before semester 1 exams. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
-"what is the submission date for Dissertation?": "Please make sure you submit your dissertation before semester 1 exams. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
-"Give me the due date for the dissertation": "Please make sure you submit your dissertation before semester 1 exams. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
+"when is the dissertation due?": "Please make sure you submit your dissertation before semester exams. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
+"what is the submission date for Dissertation?": "Please make sure you submit your dissertation before semester exams. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
+"Give me the due date for the dissertation": "Please make sure you submit your dissertation before semester exams. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
 
 "where do I submit my dissertation": "The dissertation must be submitted on <a href = 'https://learning.richfield.ac.za/HET/login/index.php'>Moodle</a>. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
 "How do I submit my dissertation": "The dissertation must be submitted on <a href = 'https://learning.richfield.ac.za/HET/login/index.php'>Moodle</a>. \nRemember to send your dissertation to Dr Stephen (stephen.akandwanaho@growth-ten.com) to send for external proof-reading. The cost is only R2500. \nGood Luck!",
 
 
-"What is the extension due date for Dissertation chapters 1, 2 & 3": "The due date for chapters 1, 2 & 3 submission is 3rd April 2024. \n<strong>Good Luck!</strong> ",
-"due date for Dissertation chapters 1, 2 & 3": "The due date for chapters 1, 2 & 3 submission is 3rd April 2024.\n<strong>Good Luck!</strong> ",
-"when do we submit chapters 1, 2 & 3 of the dissertation": "The due date for chapters 1, 2 & 3 submission is 3rd April 2024.\n<strong>Good Luck!</strong> ",
-"give me the due date for chapters 1, 2 & 3": "The due date for chapters 1, 2 & 3 submission is 3rd April 2024.\n<strong>Good Luck!</strong> ",
+"What is the extension due date for Dissertation chapters 1, 2 & 3": "The due date for chapters 1, 2 & 3 submission is 3rd October 2024. \n<strong>Good Luck!</strong> ",
+"due date for Dissertation chapters 1, 2 & 3": "The due date for chapters 1, 2 & 3 submission is 3rd October 2024.\n<strong>Good Luck!</strong> ",
+"when do we submit chapters 1, 2 & 3 of the dissertation": "The due date for chapters 1, 2 & 3 submission is 3rd October 2024.\n<strong>Good Luck!</strong> ",
+"give me the due date for chapters 1, 2 & 3": "The due date for chapters 1, 2 & 3 submission is 3rd October 2024.\n<strong>Good Luck!</strong> ",
 
 
 "Do you offer online classes?": "Yes, Richfield offers online classes via Distance Learning modality. \nPlease contact your administrator for details.",
@@ -379,10 +356,10 @@ faqs = {
 "who is the IT guy?": "If you have a technical problem with your computer, operating system (Microsoft) or anything IT related, please contact:vinoliam@richfield.ac.za and cc stephen.akandwanaho@growth-ten.com.",
 
 
-"When is the entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2024. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator for consideration. \n<strong>Good Luck!</strong>",
-"How do i take part in the entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2024. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator for consideration. \n<strong>Good Luck!</strong>",
-"entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2024. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator. \n<strong>Good Luck!</strong>",
-"Who takes part in the entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2024. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator. \n<strong>Good Luck!</strong>",
+"When is the entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2025. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator for consideration. \n<strong>Good Luck!</strong>",
+"How do i take part in the entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2025. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator for consideration. \n<strong>Good Luck!</strong>",
+"entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2025. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator. \n<strong>Good Luck!</strong>",
+"Who takes part in the entrepreneurship week?": "The enterpreneurship week runs from 02 April to 05 April 2025. \nThis is an opportunity for students to showcase their innovations and attract funding.\nPitch presentations will be attended by industry representatives who will determine the viability and creativity of your innovation.\nPlease ensure that your ideas are aimed to solve an intractable problem in industry. \nSend your details to your administrator. \n<strong>Good Luck!</strong>",
 
 
 "How does one qualify to graduate?": "To qualify for graduation, the below requirements must be met: \nAll modules must be successfully completed. \nFees must be paid up. \nWIL/Dissertation/ IT project must be submitted and marked.",
@@ -461,7 +438,8 @@ faqs = {
 "how many failed modules can I carry to another year?": "You are only allowed to carry a maximum of 2 failed modules to another year.",
 "If I am carrying 1st year modules, am I allowed to continue to 2nd year?": "You are only allowed to carry a maximum of 2 failed modules to another year.",
 
-"Do we have a semester break?": "Yes. The semester break for mid-year is 8 July to 19th July 2024.",
+"Do we have a semester break?": "Yes. The semester break for mid-year is 23 September to 27 September 2024.\n<strong>Enjoy your break</strong>",
+"semester break?": "The semester break for mid-year is 23 September to 27 September 2024.\n<strong>Enjoy your break</strong>",
 "Do we offer extramural activities?": "Please check with your campus manager.",
 "Are there any security cameras around campus?": "Yes. There are security cameras around the campus",
 "How influential is SRC?": "Richfield has a strong SRC body. \nEach campus has an active SRC committee and participates in the insitution's decisiona making processes.",
@@ -541,11 +519,11 @@ def get_answer(user_question):
     elif lower_question in ["give me 2024 graduation dates","When is 2024 graduation and what are the times","When is the graduation ceremony","2024 graduation","give me graduation dates","graduation dates","when is graduation for 2024","when is graduation for 2024?","when is graduation?","graduation venue","where is graduation in 2024","where is 2024 graduation?","when is 2024 graduation?","where is graduation","give me dates for 2024 graduation","when is graduation","when is 2024 graduation","where will 2024 graduation take place","where will 2024 graduation take place?","where will graduation take place in 2024?","where will graduation take place in 2024?","where will graduation take place","when is graduation 2024", "graduation dates 2024","when are graduations","when are 2024 graduations"]:
 
         graduation_data = [
-        {"event": "Richfield CapeTown", "date": "04-05-2023", "venue": "Fountains Hotel"},
-        {"event": "Johannesburg", "date": "11-05-2024", "venue": "Linder Auditorium"},
-        {"event": "KwaZulu-Natal", "date": "18-05-2024", "venue": "Greyville Race Course"},
-        {"event": "Pretoria", "date": "23-05-2024", "venue": "State Theatre"},
-        {"event": "Polokwane", "date": "25-05-2024", "venue": "Merupa Sun"}
+        {"event": "Richfield CapeTown", "date": "04-05-2025", "venue": "Fountains Hotel"},
+        {"event": "Johannesburg", "date": "11-05-2025", "venue": "Linder Auditorium"},
+        {"event": "KwaZulu-Natal", "date": "18-05-2025", "venue": "Greyville Race Course"},
+        {"event": "Pretoria", "date": "23-05-2025", "venue": "State Theatre"},
+        {"event": "Polokwane", "date": "25-05-2025", "venue": "Merupa Sun"}
 
         ]
 
