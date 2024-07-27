@@ -10,16 +10,6 @@ if (localPropertiesFile.exists()) {
     localProperties.load(localPropertiesFile.newDataInputStream())
 }
 
-def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
-if (flutterVersionCode == null) {
-    flutterVersionCode = '1'
-}
-
-def flutterVersionName = localProperties.getProperty('flutter.versionName')
-if (flutterVersionName == null) {
-    flutterVersionName = '1.0'
-}
-
 android {
     namespace "com.example.flutterapp"
     compileSdk localProperties.getProperty('flutter.compileSdkVersion').toInteger()
@@ -39,11 +29,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.flutterapp"
+        applicationId "com.richfield.richcontact"
         minSdkVersion localProperties.getProperty('flutter.minSdkVersion').toInteger()
-        targetSdkVersion localProperties.getProperty('flutter.targetSdkVersion').toInteger()
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        targetSdkVersion 33 // Explicitly setting targetSdkVersion to 33
+        versionCode 5 // Explicitly setting versionCode
+        versionName "2.2" // Explicitly setting versionName
         archivesBaseName = "Rich Contact"
     }
 

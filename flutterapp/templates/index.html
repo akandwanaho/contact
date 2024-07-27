@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+
+
+    <title>Rich - DL Bot</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; text-align: center; }
+        .logo { width: 250px; height: auto; display: block; margin: auto; }
+        .title { margin-top: 20px; }
+        textarea { width: 50%; padding: 10px; margin-top: 10px; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        table { margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 8px; }
+        th { background-color: #f2f2f2; }
+        .blue-text { color: blue; } /* Blue text for answers */
+         #downloadForm { display: none; margin-top: 20px; } /* Increased space */
+
+           /* Install button style */
+   #install-button {
+        font-weight: bold;
+        color: blue;
+    }
+
+    </style>
+</head>
+<body>
+<div class="main-container">
+   <img class="logo" src="{{ url_for('static', filename='logo1.jpg') }}" alt="Logo">
+   <!-- <img class="logo" src="{{ url_for('static', filename='favicon.ico') }}" alt="Logo"> -->
+
+
+<div class="container">
+  <div class="form-wrapper">
+    <div class="form-container">
+      <h1 class="title">Rich - Contact Bot</h1>
+        <h3 class="title">This bot will answer all your questions</h3>
+      <div class="titles-container">
+        <p class="question-title">Type and submit question <span class="blue-text">(see example prompts on the right)</span>:</p>
+      </div>
+
+      </div>
+      <form action="/get_answer" method="post">
+        <div class="input-wrapper">
+          <textarea id="main-question" name="question" placeholder="Type your question here..." required></textarea>
+          <div id="examplePrompts" class="form-container">
+            <div id="scrollContainer">
+              <ul id="scrollList">
+                <li>How do I reset my Moodle login?</li>
+                  <li>how do i access my academic transcript?</li>
+                <li>when does semester 2 start?</li>
+                <li>how do i access my results?</li>
+                <li>how do i reset my moodle password?</li>
+                <li>when is graduation for 2024?</li>
+                <li>how do i signup for IBM?</li>
+                <li>how do I sign up for AWS</li>
+                <li>how are marks calculated?</li>
+                <li>what courses does Richfield offer?</li>
+                <li>what happens if I fail the exam</li>
+                <li>my moodle password is not working</li>
+                <li>what happens if i fail exams?</li>
+                <li>how do i access my academic record?</li>
+               <li>how do i access my academic transcript</li>
+                <li>how do i access my fee statement</li>
+                <li>when are the exams</li>
+                <li>when will results for semester 1 2024 be released</li>
+                <!-- More list items here -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="button" onclick="clearQuestion()">Reset</button>
+        <!-- Admin View button for the first form -->
+        <button id="adminViewBtn1">Admin View</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <!-- Display Answer or Administrator List -->
+{% if answer %}
+    <div id="response" class="blue-text">
+        {% if answer.type == "text" %}
+            <p>{{ answer.data | replace('\n', '<br>') | safe }}</p>
+        {% elif answer.type == "admin_list" %}
+            <h2>Please contact your relevant administrator from the list below:</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Responsibility</th>
+                </tr>
+                {% for admin in answer.data %}
+                <tr>
+                    <td>{{ admin.name }}</td>
+                    <td>{{ admin.email }}</td>
+                    <td>{{ admin.responsibility }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+{% elif answer.type == "timetable" %}
+    <h2>Your class timetable is given below:</h2>
+    <p>Please access the workshop links via this portal: <a href="https://learning.richfield.ac.za/">Moodle</a></p>
+        <p><strong>Diploma in Information Technology (3rd Year Students):</strong></p>
+    <table>
+             <tr>
+            <th>MODULES</th>
+            <th>SEMESTER</th>
+            <th>LECTURER</th>
+            <th>DATE</th>
+            <th>TIME</th>
+        </tr>
+        {% for row in answer.data %}
+        <tr>
+            <td>{{ row['MODULES'] }}</td>
+            <td>{{ row['SEMESTER'] }}</td>
+            <td>{{ row['LECTURER'] }}</td>
+            <td>{{ row['DATE'] }}</td>
+            <td>{{ row['TIME'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+        {% elif answer.type == "graduation" %}
+    <h2><strong>The 2024 graduation schedule is as follows:</strong></h2>
+    <p>Any further information, please contact your campus. <br>Remember you can ask me who your administrator is.</p>
+       <table>
+             <tr>
+            <th>Region</th>
+            <th>Date</th>
+            <th>Venue</th>
+
+        </tr>
+        {% for item in answer.data %}
+        <tr>
+             <td>{{ item['event'] }}</td>
+            <td>{{ item['date'] }}</td>
+            <td>{{ item['venue'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endif %}
+
+    </div>
+{% endif %}
+
+
+<p class="note-paragraph">
+    Note: Please contact your specific campus for any missing information or further assistance.
+</p>
+<p class="rights-paragraph">&copy; 2024 Richfield. All rights reserved.</p>
+
+
+<!-- Form for Unanswered Questions moved here and styled -->
+<div class="unanswered-question-form">
+    <h5 class="question-heading">Send any question the bot did not answer:</h5>
+    <form action="/submit-question" method="post">
+        <textarea id="unanswered-question" name="unanswered_question" rows="2" cols="30"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+
+    <!-- Admin View button for the second form -->
+    <button id="adminViewBtn2">Admin View</button>
+
+ </div>
+    <script>
+
+
+
+        function clearQuestion() {
+            document.getElementById("main-question").value = "";
+            // Ensure to check if "response" div exists before trying to clear it
+            var responseDiv = document.getElementById("response");
+            if (responseDiv) {
+                responseDiv.innerHTML = "";
+            }
+        }
+
+// Function to handle Admin View button click for Form 1
+document.getElementById('adminViewBtn1').onclick = function() {
+    // Redirect to the admin-view route for form 1
+    window.location.href = '/admin-view-form1';
+};
+
+
+        // Function to handle Admin View button click for the second form
+        document.getElementById('adminViewBtn2').onclick = function() {
+            window.location.href = '/admin-view';
+        };
+
+
+
+window.onload = function() {
+  const scrollList = document.getElementById('scrollList');
+
+  function scrollListItems() {
+    if (scrollList && scrollList.childNodes.length > 0) {
+      const listItemHeight = scrollList.firstElementChild.offsetHeight;
+      scrollList.scrollTop += listItemHeight;
+      // Check if the scroll has reached the end, then reset to the top
+      if (scrollList.scrollTop >= scrollList.scrollHeight - scrollList.clientHeight) {
+        scrollList.scrollTop = 0;
+      }
+    }
+  }
+
+  // Start the automatic scrolling
+  setInterval(scrollListItems, 2000); // Adjust the interval as needed
+};
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
