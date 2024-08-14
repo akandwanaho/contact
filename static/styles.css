@@ -111,12 +111,21 @@
   color: blue;
 }
 
-/* New styles for the links */
+/* New styles for the links
 .links-container {
     position: absolute;
-    top: 80px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 80px; /* Adjust as needed
+    right: 20px; /* Adjust as needed
     text-align: left;
+}
+*/
+.links-container {
+    width: 30%; /* Adjust the width as needed to fit your design */
+    position: absolute; /* Keeps the links positioned absolutely on the page */
+    right: 55px; /* Adjust the right margin to bring the links closer to the center */
+    top: 80px; /* Adjust the top margin as needed */
+    text-align: left; /* Align text to the left within the container */
+    margin-bottom: 20px; /* Add space below the links */
 }
 
 .links-container a {

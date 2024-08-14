@@ -38,6 +38,7 @@
     <a href="https://learning.richfield.ac.za" target="_blank">Log into Moodle</a>
     <a href="https://rgitie.richfield.ac.za/pls/rgitp/w99pkg.mi_login" target="_blank">Log into iEnabler</a>
         <a href="https://www.richfield.ac.za/payment/" target="_blank" class="flicker">Pay Fees</a>
+      <a href="{{ url_for('static', filename='files/Safe_Exam_Browser_Quick_Start_Guide.pdf') }}" download>Download Safe Exam Browser Guide</a>
 </div>
 
         <div class="main-container">
@@ -167,8 +168,11 @@
 </p>
 <p class="rights-paragraph">&copy; 2024 Richfield. All rights reserved.</p>
 
-
-<!-- Form for Unanswered Questions moved here and styled -->
+   <div class="unanswered-question-info">
+<h5 class="question-heading">For any question that the bot did not answer, please send it to:</h5>
+<p><span class="question-heading"><a href="mailto:stephen.akandwanaho@growth-ten.com">stephen.akandwanaho@growth-ten.com</a></span></p>
+   </div>
+<!-- Form for Unanswered Questions moved here and styled
 <div class="unanswered-question-form">
     <h5 class="question-heading">Send any question the bot did not answer:</h5>
     <form action="/submit-question" method="post">
@@ -178,9 +182,9 @@
 </div>
 
 
-    <!-- Admin View button for the second form -->
+    Admin View button for the second form
     <button id="adminViewBtn2">Admin View</button>
-
+-->
  </div>
     <script>
 

@@ -609,6 +609,7 @@ def feedback():
 # def admin_view():
 #  return render_template('feedback.html', submitted_questions=submitted_questions)
 
+"""
 @app.route('/admin-view', methods=['GET', 'POST'])
 def admin_view():
     if request.method == 'POST':
@@ -652,6 +653,7 @@ def get_access_data():
         access_count += 1
     return {'count': access_count, 'date': datetime.now().strftime('%Y-%m-%d')}
 
+"""
 
 @app.route('/api/faq')
 def get_faq_data():
