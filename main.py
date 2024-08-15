@@ -449,6 +449,10 @@ faqs = {
 
 
 
+"SEB": "The SEB is the proctoring software that we use for all our assessments, for both distance and contact learning students. \nIt contains facial detection and video analytics capabilities.\n You can download the guide from this site by navigating to the top right corner, just after the ‘Pay Fees’ link, where you will find the download link.”.",
+"Safe Exam Browser": "The SEB is the proctoring software that we use for all our assessments, for both distance and contact learning students. \nIt contains facial detection and video analytics capabilities.\n You can download the guide from this site by navigating to the top right corner, just after the ‘Pay Fees’ link, where you will find the download link.”.",
+"proctoring software": "The SEB is the proctoring software that we use for all our assessments, for both distance and contact learning students. \nIt contains facial detection and video analytics capabilities.\n You can download the guide from this site by navigating to the top right corner, just after the ‘Pay Fees’ link, where you will find the download link.”.",
+"proctoring tool": "The SEB is the proctoring software that we use for all our assessments, for both distance and contact learning students. \nIt contains facial detection and video analytics capabilities.\n You can download the guide from this site by navigating to the top right corner, just after the ‘Pay Fees’ link, where you will find the download link.”.",
 
 
 
